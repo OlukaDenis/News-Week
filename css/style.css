@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #f72210;
+  --btn-secondary: #f4f5f6;
+  --faint-black: #333;
+}
+
+.top-nav {
+  z-index: -2;
+  left: 0;
+  position: fixed;
+  background-color: var(--primary-color);
+}
+
+.brand-logo svg {
+  height: 20px;
+  fill: white;
+}
+
+.button {
+  cursor: pointer;
+}
+
+#scrolling-header {
+  max-width: 1320px;
+  background-color: white;
+  z-index: 1;
+}
+
+.s-h-top {
+  background-color: var(--primary-color);
+}
+
+.h-brand-logo svg {
+  height: 60px;
+  fill: white;
+  z-index: 1;
+}
+
+.s-h-top-nav {
+  position: relative;
+  background-color: white;
+  max-width: 1320px;
+  border-bottom: 1px #dbdee0fc solid;
+  z-index: 1;
+}
+
+.s-h-top-nav ul .nav-item {
+  color: black;
+  border-left: 1px #dbdee0fc solid;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  color: black;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.s-h-top-nav ul li input {
+  border: 1px #fff solid;
+}
+
+.s-h-top-nav::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 66px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.s-h-top-nav ul li:first-of-type {
+  border-left: none;
+  padding-left: 0;
+}
