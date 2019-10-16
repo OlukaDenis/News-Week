@@ -5,12 +5,6 @@
   margin: 0;
 }
 
-:root {
-  --primary-color: #f72210;
-  --btn-secondary: #f4f5f6;
-  --faint-black: #333;
-}
-
 body {
   max-width: 1320px;
   font-family: "Lato", sans-serif;
@@ -34,11 +28,15 @@ h6 {
   font-weight: 700;
 }
 
+.hidden-title {
+  display: none;
+}
+
 .top-nav {
   z-index: -2;
   left: 0;
   position: fixed;
-  background-color: var(--primary-color);
+  background-color: #f72210;
 }
 
 .brand-logo svg {
@@ -56,7 +54,7 @@ h6 {
 }
 
 .s-h-top {
-  background-color: var(--primary-color);
+  background-color: #f72210;
 }
 
 .h-brand-logo svg {
@@ -123,6 +121,11 @@ h6 {
   font-weight: 900;
 }
 
+.featured-story article h2 a:hover,
+#sticky1 article h3 a:hover {
+  text-decoration: underline #f72210 solid;
+}
+
 #sticky1 article h3 a {
   color: black;
   font-size: 1.5rem;
@@ -135,11 +138,6 @@ h6 {
   font-size: 1rem;
   font-weight: 900;
   line-height: 4px;
-}
-
-.featured-story article h2 a:hover,
-#sticky1 article h3 a:hover {
-  text-decoration: underline #f72210 solid;
 }
 
 .story-content h4 a:hover {
@@ -166,7 +164,7 @@ h6 {
 }
 
 .category a {
-  color: var(--primary-color);
+  color: #f72210;
   font-weight: 900;
 }
 
@@ -254,7 +252,7 @@ h6 {
 
 .d-flex .info a:hover,
 .related a:hover {
-  color: var(--primary-color);
+  color: #f72210;
 }
 
 .byline {
@@ -266,13 +264,13 @@ h6 {
   font-weight: bold;
   margin-top: 4px;
 }
-
+/* 
 @media (max-width: 575) {
-}
+} */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-}
+/* @media (min-width: 576px) {
+} */
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -289,5 +287,5 @@ h6 {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
+/* @media (min-width: 1200px) {
+} */
