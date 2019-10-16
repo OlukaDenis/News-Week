@@ -264,15 +264,16 @@ h6 {
   font-weight: bold;
   margin-top: 4px;
 }
+
 /* 
 @media (max-width: 575) {
-} */
+} 
 
-/* Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) {
-} */
+Small devices (landscape phones, 576px and up) 
+@media (min-width: 576px) {
+} 
 
-/* Medium devices (tablets, 768px and up) */
+Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .headshot {
     width: 90px;
@@ -286,6 +287,6 @@ h6 {
   }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) {
+/* Extra large devices (large desktops, 1200px and up)
+ @media (min-width: 1200px) {
 } */
