@@ -361,12 +361,44 @@ Medium devices (tablets, 768px and up) */
   font-weight: 900;
 }
 .m-article h5 a,
-.m-article-unique h5 a {
+.m-article-unique h5 a,
+.editor-article h3 a {
   color: black;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 1.3rem;
 }
 
 .m-article h5 a:hover,
-.m-article-unique h5 a:hover {
+.m-article-unique h5 a:hover,
+.editor-article h3 a:hover {
   text-decoration: underline solid #f72210;
+}
+
+.icon-n:after {
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+  display: block;
+  content: "";
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+.count-link {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
+    0 0 / contain no-repeat;
+  color: #e9212e;
 }
