@@ -172,6 +172,11 @@ h6 {
   line-height: 4px;
 }
 
+.page-footer ul li a {
+  color: #555;
+  font-size: 13px;
+}
+
 .related a:hover {
   color: #f72210;
 }
@@ -187,11 +192,6 @@ h6 {
 .m-article-unique h5 a:hover,
 .editor-article h3 a:hover {
   text-decoration: underline solid #f72210;
-}
-
-.page-footer ul li a {
-  color: #555;
-  font-size: 13px;
 }
 
 .block-title {
