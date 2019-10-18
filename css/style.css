@@ -106,22 +106,6 @@ h6 {
   height: inherit;
 }
 
-.story-content h4 a:hover {
-  text-decoration: underline #f72210 solid;
-}
-
-.page-footer ul li a {
-  color: #555;
-  font-size: 13px;
-}
-
-.m-article h5 a:hover,
-.m-article-unique h5 a:hover,
-.editor-article h3 a:hover {
-  text-decoration: underline solid #f72210;
-}
-
-.block-title,
 .block-title a {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 800;
@@ -143,9 +127,54 @@ h6 {
   font-size: 1.5rem;
 }
 
+.category a {
+  color: #f72210;
+  font-weight: 900;
+}
+
+.featured-story h2 a {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.related a:hover {
+  color: #f72210;
+}
+
 .unique a {
   color: white;
   font-weight: 900;
+}
+
+.m-article h5 a:hover,
+.m-article-unique h5 a:hover,
+.editor-article h3 a:hover {
+  text-decoration: underline solid #f72210;
+}
+
+.m-article h5 a,
+.m-article-unique h5 a,
+.editor-article h3 a {
+  color: black;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.page-footer ul li a {
+  color: #555;
+  font-size: 13px;
+}
+
+.block-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  color: rgba(3, 3, 3, 0.4);
+  letter-spacing: 0.01rem;
+  font-size: 0.9rem;
 }
 
 .title a {
@@ -162,28 +191,11 @@ h6 {
   font-size: 1.2rem;
 }
 
-.category a {
-  color: #f72210;
-  font-weight: 900;
-}
-
 .story-content h4 a {
   color: black;
   font-size: 1rem;
   font-weight: 900;
   line-height: 4px;
-}
-
-#sticky1 article h3 a {
-  color: black;
-  font-size: 1.5rem;
-  font-weight: 900;
-  line-height: 4px;
-}
-
-.featured-story article h2 a:hover,
-#sticky1 article h3 a:hover {
-  text-decoration: underline #f72210 solid;
 }
 
 .d-flex .info a {
@@ -193,28 +205,12 @@ h6 {
   font-size: 1rem;
 }
 
-.d-flex .info a:hover,
-.related a:hover {
-  color: #f72210;
+.story-content h4 a:hover {
+  text-decoration: underline #f72210 solid;
 }
 
-.m-article h5 a,
-.m-article-unique h5 a,
-.editor-article h3 a {
-  color: black;
-  font-weight: bolder;
-  font-size: 1.3rem;
-}
-
-.featured-story h2 a {
-  color: black;
-  font-size: 1.3rem;
-  font-weight: 900;
-}
-
-.info .tags a:hover {
-  color: white;
-  background-color: #272727;
+.featured-story article h2 a:hover {
+  text-decoration: underline #f72210 solid;
 }
 
 .culture-item .info .tags a {
@@ -225,6 +221,26 @@ h6 {
   margin-right: 6px;
   margin-bottom: 6px;
   color: #272727;
+}
+
+.d-flex .info a:hover {
+  color: #f72210;
+}
+
+.info .tags a:hover {
+  color: white;
+  background-color: #272727;
+}
+
+#sticky1 article h3 a {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 4px;
+}
+
+#sticky1 article h3 a:hover {
+  text-decoration: underline #f72210 solid;
 }
 
 .wrap {
