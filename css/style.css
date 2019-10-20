@@ -114,10 +114,6 @@ h6 {
   background: white;
 }
 
-#collapsing-menu li {
-  margin-left: 0.9rem;
-}
-
 .image a img {
   width: 100%;
   height: inherit;
@@ -511,4 +507,8 @@ h6 {
 .s-h-top-nav ul li:first-of-type {
   border-left: none;
   padding-left: 0;
+}
+
+#collapsing-menu li {
+  margin-left: 0.9rem;
 }
