@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class=" mx-auto">
-    <nav class=" navbar d-lg-none d-md-block d-sm-block d-xs-block container-fluid top-nav fixed align-content-center text-white">
+    <nav class=" navbar d-block d-lg-none container-fluid top-nav fixed align-content-center text-white">
       <div class="row w-100">
         <a href="#" class="navbar-brand col-5 brand-logo">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -41,13 +41,13 @@
         <div class="col p-0">
           <div class="row justify-content-end align-content-center text-uppercase font-weight-bold pr-0">
             <a class="text-decoration-none text-white px-2 pt-2" href="#">Sign in</a>
-            <a class="text-decoration-none px-2 pt-2" style="background: white; color:#f72210; " href="#">Subscribe <i
+            <a id="subscribe-btn" class=" text-decoration-none px-2 pt-2"  href="#">Subscribe <i
                 class="fas fa-chevron-right pl-1"></i></a>
             <button class="navbar-toggler p-0 ml-2" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-              <span class="navbar-toggler-icon pt-2" style="color: white;"></span>
+              <span class="navbar-toggler-icon pt-2" ></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsingNavbar">
-              <ul class="style navbar-nav float-right  mt-3" style="margin-right: -1em; background: white;">
+              <ul id="collapsing-menu" class=" navbar-nav float-right  mt-3" >
                 <li>
                   <form class="form-inline" action="#">
                     <input class="form-control mr-1" type="text" placeholder="Search" />
@@ -87,7 +87,7 @@
                   <a class="nav-link text-dark" href="#">Opinion</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark" href="#">Vintage</a>
+                  <a class="nav-link text-dark" href="#">Vantage</a>
                 </li>
               </ul>
             </div>
@@ -96,9 +96,9 @@
       </div>
     </nav>
     
-    <div class="container-fluid  d-lg-block d-md-none d-sm-none " style="background-color: rgba(244, 245, 246, 0.973);">
-      <header id="scrolling-header" class="container-fluid mx-auto d-xs-none">
-        <div class="s-h-top row justify-content-between align-items-end text-white pb-3 px-3 pt-3">
+    <div class="container-fluid d-none d-lg-block">
+      <header id="scrolling-header" class="container-fluid mx-auto d-lg-block">
+        <div class="s-h-top row justify-content-between align-items-end text-white pb-3 px-3 pt-3 ">
           <div class="text-white">Thu, Oct 10, 2019</div>
           <a href="#" class="navbar-brand h-brand-logo">
             <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -112,14 +112,14 @@
           </a>
           <div class="header-buttons">
             <a class=" text-white  text-decoration-none pr-2 font-weight-bolder" href=" #">SIGN IN</a>
-            <a class=" text-decoration-none font-weight-bolder p-1" style=" background: white; color:rgb(247,34,16)"
+            <a class=" text-decoration-none font-weight-bolder p-1" id="subscribe-btn"
               href=" #">
               SUBSCRIBE
             </a>
           </div>
         </div>
     
-        <nav class="d-flex s-h-top-nav row navbar navbar-expand w-1">
+        <nav class="d-flex s-h-top-nav row navbar navbar-expand w-1 ">
           <div class="row">
             <ul class="col-lg-12 col-md-12 navbar-nav  container-fluid">
               <li class="nav-item">
@@ -162,7 +162,7 @@
         </nav>
       </header>
     </div>
-    <div class="container-fluid pl-4 pr-4">
+    <div class="container-fluid pl-4 pr-4 the-content ">
        <div class="colwrap row sticky-scroll">
         <div class="col-lg-9 col-md-12 " >
           <div class="row">
@@ -1671,22 +1671,22 @@
             <p class="copyright pt-3">© 2019 Newsweek</p>
           </div>
           <ul class=" social d-flex align-items-end">
-          <li class="ml-0">
+          <li class="ml-0 border-right">
             <a class="genericon genericon-facebook" href="#">
               <i class="fab fa-facebook-square"></i>
             </a>
           </li>
-          <li class="ml-2">
+          <li class="ml-2 border-right">
             <a class="genericon genericon-twitter" href="#">
               <i class="fab fa-twitter"></i>
             </a>
           </li>
-          <li class="ml-2">
+          <li class="ml-2 border-right">
             <a class="genericon genericon-instagram" href="#">
               <i class="fab fa-instagram"></i>
             </a>
           </li>
-          <li class="ml-2">
+          <li class="ml-2 border-right">
             <a class="genericon genericon-tumblr" href="#">
               <i class="fab fa-tumblr"></i>
             </a>
